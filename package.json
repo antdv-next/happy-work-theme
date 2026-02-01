@@ -22,6 +22,7 @@
     "dev": "tsdown --watch",
     "build": "tsdown",
     "lint": "oxlint .",
+    "prepublish": "pnpm build",
     "lint:fix": "oxlint . --fix",
     "format": "oxfmt ."
   },
